@@ -1,27 +1,18 @@
 # phylogenies
-This is an example of how my students can solve the tasks assigned in class by creating a git repository.
 
-A git repository is great to deliver assignments for several reasons:
-* They are easy to share.
-* It's impossible to accidentally loose your work.
-* Authorship is tracked scrupulously.
-* You end up learning more: how to solve the assignment, how to use git, how to share reproducible work...
+This is a classroom assignment to practice phylogenetic reconstruction with
+maximum likelihood and Bayesian methods. The use of a Github repository for
+assignments is experimental and optional. The purpose is to encourage students
+to learn git, and to promote good practices in bioinformatics: making your
+own work easily reproducible, easy to share, and well organized and documented.
 
-The workflow would be like this:
-* Fork the master branch of this repository.
-* Clone it into your local computer.
-* 
-* You can edit the README.md file to send me some feedback.
+The expected workflow is as follows.
+* The student clones the master branch of this repository in their own computer.
+* She works on it, following the instructions, and regularly commiting her advance.
+* The student forks this repository to create a public one linked to it.
+* She pushes her work to her remote repository, and sends me a pull request when ready.
+* I will pull the changes to a local branch, and push them to a branch named after the student.
 
-I recommend having at least two folders in the repository: a *data* folder with the original files that you are
-given to solve the task; and a *results* folder with all the files you generate. Inside the *results* folder
-you should create an executable file that automatically runs all the analyses and generates all the results,
-if they are not already generated, or if the original data has changed. I recommend a *Bash* script, as well
-documented as you can.I always name it *README.sh*
-
-You should specify in your executable file _all_ the instructions required to reproduce the results. Therefore,
-you should refrain from manually typing input files, such as configuration files, etc. Avoid also programs with
-a graphical interface. Only command line tools should be used to generate the results, always. There are good
-reasons to stay away from graphical interfaces. First, you cannot easily document and reproduce all the clicks
-and the typing on a graphical interface. And second, over a connexion to a remote server, command line instructions
-work much better than graphical interfaces.
+Unfortunately, the details of how all this is done are beyond the scope of the
+course. There is plenty of documentation and tutorials on git and Github. I leave
+it up to the students to learn the basic skills required to use them.
