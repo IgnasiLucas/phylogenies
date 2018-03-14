@@ -3,7 +3,7 @@
 This is a classroom assignment to practice phylogenetic reconstruction with
 maximum likelihood and Bayesian methods. The use of a Github repository for
 assignments is experimental and optional. The purpose is to encourage students
-to learn git, and to promote good practices in bioinformatics: making your
+to learn git, and to promote good practices in bioinformatics: making their
 own work easily reproducible, easy to share, and well organized and documented.
 
 The expected workflow is as follows.
@@ -14,5 +14,4 @@ The expected workflow is as follows.
 * I will pull the changes to a local branch, and push them to a branch named after the student.
 
 Unfortunately, the details of how all this is done are beyond the scope of the
-course. There is plenty of documentation and tutorials on git and Github. I leave
-it up to the students to learn the basic skills required to use them.
+course. There is plenty of documentation and tutorials on git and Github.
