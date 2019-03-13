@@ -11,7 +11,7 @@ The expected workflow is as follows.
 * She works on it, following the instructions, and regularly commiting her advance.
 * The student forks this repository to create a public one linked to it.
 * She pushes her work to her remote repository, and sends me a pull request when ready.
-* I will pull the changes to a local branch, and push them to a branch named after the student.
+* I will pull the changes to a local branch, and push them to the remote branch named after the student.
 
 Unfortunately, the details of how all this is done are beyond the scope of the
 course. There is plenty of documentation and tutorials on git and Github.
